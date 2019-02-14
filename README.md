@@ -1,6 +1,6 @@
 # Citrix-ADC-GSLB-GeoIP-Conversion-Tool
 Tool to convert Maxming GeoIP City database to Citrix ADC (NetScaler) format
-MaxMind GeoIP database cannot be used directly in Citrix ADC (NetScaler). The MaxMind GeoIP database must be converted into NetScaler formatand then loaded for IP location detection in GSLB static proximity method and other features like policies.
+MaxMind GeoIP database cannot be used directly in Citrix ADC. The MaxMind GeoIP database must be converted into NetScaler format and then loaded for IP location detection in GSLB static proximity method and other features like policies.
 The script provided converts the MaxMind GeoIP2 database to NetScaler database format.
 
 Steps to convert GeoIP2 database to NetScaler format
@@ -40,3 +40,5 @@ File containing list of events/messages
 
 	-debug prints all the messages to STDOUT
 File containing messages that needs to be printed
+
+See Citrix ADC GSLB docs for more details - https://docs.citrix.com/en-us/citrix-adc/12-1/global-server-load-balancing.html
