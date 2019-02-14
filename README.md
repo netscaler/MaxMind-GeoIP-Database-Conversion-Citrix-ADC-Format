@@ -4,7 +4,7 @@ MaxMind GeoIP database cannot be used directly in Citrix ADC. The MaxMind GeoIP 
 The script provided converts the MaxMind GeoIP2 database to NetScaler database format.
 
 Steps to convert GeoIP2 database to NetScaler format
-1.	Download the script Convert_GeoIPDB_To_Netscaler_Format.pl to a Citrix ADC directory (for example /var/).
+1.	Download the script [Convert_GeoIPDB_To_Netscaler_Format.pl](https://github.com/pankajharnandka/Citrix-ADC-GSLB-GeoIP-Conversion-Tool/blob/master/Convert_GeoIPDB_To_Netscaler_Format_WithContinent.pl) to a Citrix ADC directory (for example /var/).
 
 2.	Download the .csv format of the GeoIP2 database from https://dev.maxmind.com/geoip/geoip2/geolite2/ and extract the database files into the same directory where you have placed the script.
 
